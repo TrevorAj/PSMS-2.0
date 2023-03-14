@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang=”en”>
+    <center>
+<head>
+ <title>
+  PSMS
+ </title>
+</head>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<body>
+<h1>
+Log in
+</h1>
+<h2>
+Dont have an account? Create one
+</h2>
+<form action="next_page.php" method="post">
+  <div class="container">
+    <label for="username">
+ <b>
+  Enter Username here:
+ </b>
+   </label>
+    <input type="text" placeholder=" Username " name="username" required>
+    <label for="password">
+ <b>
+    <br>
+    <br>
+  Enter Password here:
+ </b>
+     </label>
+    <input type="password" placeholder=" Password" name="password" required>
+    <br>
+    <br>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+    <br>
+    <br>
+    <button type="submit">
+ Sign in
+    </button>
+  </div>
+  <div class="container" >
+    <br>
+    <span class="password"><a href="forgotpass.html">Forgot password?</a></span>
+  </div>
+</form>
+<script>
+var connection = mysql.createConnection({
+ host : 'hostname',
+ user : 'username',
+ password : 'password',
+ database : 'databaseName'
+});
+</script>
+</body>
+</center>
+</html>
